@@ -25,6 +25,9 @@
           -Background color is #344a72
         */
         background: #344a72;
+        /* Editor */
+        font-family: 'Raleway', sans-serif; 
+        line-height: 1.8;
       }
 
       a {
@@ -40,17 +43,19 @@
         -I would also set a "max-width" for responsiveness
         -May want to add some padding
         */
-        position: relative;
-        margin: 20px auto;
-        max-width: 300px;
-        padding: 10px 20px;
+        margin: 30px auto;
+        max-width: 400px;
+        padding: 20px;
       }
 
-      .form-wrap , .form-wrap form {
+      .form-wrap {
         background: #f4f4f4;
         /* 
           This is the white area around the form and heading, etc
         */
+        /* Editor */
+        padding: 15px 25px;
+        color: #333;
       }
 
       .form-wrap h1,
@@ -60,14 +65,14 @@
         */
         text-align: center;
         margin-bottom: 10px;
+
       }
 
       .form-wrap .form-group {
         /* 
           Each label, input is wrapped in .form-group
         */
-        max-width: 200px;
-        margin: auto;
+        margin-top: 15px;
       }
 
       .form-wrap .form-group label {
@@ -75,18 +80,16 @@
           Label should be turned into a block element
         */
         display: block;
-        line-height: 1.5em;
+        color: #666;
       }
 
       .form-wrap .form-group input {
         /* 
           Inputs should reach accross the .form-wrap 100% and have some padding
         */
-        display: block;
-        line-height: 1.5em;
-        height: 25px;
         width: 100%;
-        border: 0;
+        padding: 10px;
+        border: 1px solid #ddd;
         border-radius: 5px;
       }
 
@@ -97,9 +100,10 @@
         */
         display: block;
         background: #49c1a2;
-        margin: 10px 0;
-        height: 25px;
         width: 100%;
+        padding: 10px;
+        margin-top: 20px;
+        color: #fff;
       }
 
       .form-wrap button:hover {
@@ -114,15 +118,16 @@
         /* 
           Bottom text is smaller
         */
+        font-size: 13px;
         text-align: center;
-        font-size: 12px;
+        padding-top: 15px;
       }
 
       footer {
         /* 
         Should be centered
        */
-       margin: auto;
+       text-align: center;
       }
 
       footer a {
